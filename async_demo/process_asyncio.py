@@ -61,7 +61,6 @@ def run_process():
 
     for p in p_list:
         p.join()
-        print(p)
 
 
 if __name__ == '__main__':
